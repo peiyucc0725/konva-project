@@ -1,0 +1,11 @@
+html,
+body {
+  overflow: auto;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+  font-family: Helvetica, "Microsoft JhengHei", sans-serif;
+  box-sizing: border-box;
+}

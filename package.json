@@ -1,0 +1,31 @@
+{
+  "name": "konva-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --config eslint.config.js src/"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "konva": "^9.3.18",
+    "pinia": "^2.3.1",
+    "unplugin-auto-import": "^19.0.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "eslint": "^9.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "sass": "^1.84.0",
+    "uuid": "^11.0.5",
+    "vite": "^6.0.11",
+    "vite-plugin-vuetify": "^2.1.0",
+    "vuetify": "^3.7.11"
+  }
+}
