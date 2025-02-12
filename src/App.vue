@@ -1,5 +1,5 @@
 <script setup>
-import Editor from '@/components/Editor.vue'
+import Editor from '@/components/Editor/index.vue'
 
 const handlePreventDefault = (e) => {
   e.preventDefault()
