@@ -1,35 +1,26 @@
 # konva-project
 
-This template should help get you started developing with Vue 3 in Vite.
+**Live Demo: [Konva 編輯器](https://peiyucc0725.github.io/konva-project/)**
 
-## Recommended IDE Setup
+## Use Technology & Library
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
+```text
+Node Version: 20 LTS
+Framework: Vue3
+Build Tool: Vite
+Library: Konva
 ```
 
-### Compile and Hot-Reload for Development
+-----
+
+### Install Packages
 
 ```sh
-pnpm dev
+npm install
 ```
 
-### Compile and Minify for Production
+### Start Dev Server
 
 ```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
+npm run dev
 ```

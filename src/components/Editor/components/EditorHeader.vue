@@ -1,6 +1,6 @@
 <script setup>
 import { VNumberInput } from 'vuetify/labs/VNumberInput'
-import logo from '@/assets/images/konva-logo_192x192.png'
+import logo from '/konva-logo_192x192.png'
 import ColorPicker from '@/components/ColorPicker.vue'
 import MaterialIconButton from '@/components/MaterialIconButton.vue'
 import { useStageStore } from '@/stores/konva/stage'

@@ -11,12 +11,14 @@ export const useStageStore = defineStore('stage', () => {
   const transformerStore = useTransformerStore()
 
   const stage = ref(null)
+  const containerRef = ref(null)
 
   const setStage = (val) => {
     stage.value = val
   }
 
   const createStage = (container) => {
+    containerRef.value = container
     stage.value = new Konva.Stage({
       container: container,
       width: window.innerWidth - container.offsetLeft,
@@ -228,5 +230,5 @@ export const useStageStore = defineStore('stage', () => {
   }
 
 
-  return { stage, setStage, addLayerIntoStage, createStage }
+  return { stage, containerRef, setStage, addLayerIntoStage, createStage }
 })
